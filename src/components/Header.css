@@ -1,0 +1,26 @@
+.header-style-div{
+  margin-bottom: 10px;
+}
+
+.header-style-ul {
+    display:inline;
+    list-style: none;
+  }
+  
+  .header-style-li {
+    display:inline;
+  }
+  
+  .header-style-li::after {
+      content: "|";
+      color: blue;
+      padding: 10px;
+  }
+  
+  .header-style-li:last-child::after {
+      display: none;
+  }
+  
+  .active {
+    font-weight: bold;
+  }

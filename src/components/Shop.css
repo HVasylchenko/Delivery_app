@@ -1,0 +1,53 @@
+.shop-page-style {
+  display: flex;
+  /* border: 2px solid blue;
+  border-radius: 10px; */
+}
+
+.shops-style {
+width: 20%;
+margin: 5px;
+padding: 10px;
+border: 2px solid blue;
+border-radius: 10px;
+}
+.shops-style-ul {
+  list-style: none;
+  /* width: 80%; */
+  margin: 0 auto;
+}
+
+.foods-style {
+width: 80%;
+margin: 5px;
+padding: 2px;
+border: 2px solid blue;
+border-radius: 10px;
+
+}
+
+.goods-field {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+height: 400px;
+overflow-y: scroll;
+}
+
+.goods-block {
+margin: 2px;
+padding: 2px;
+border: 2px solid blue;
+border-radius: 10px;
+
+}
+
+img {
+  width: 160px;
+}
+p {
+  margin: 3px;
+}
+.add-to-cart {
+  margin-left: 10px;
+}

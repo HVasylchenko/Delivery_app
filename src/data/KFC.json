@@ -1,0 +1,58 @@
+[
+        {
+            "articul": "184f",
+            "title": "Бакет Дует",
+            "cost": 245,
+            "image": "https://www.kfc-ukraine.com/admin/files/4093.png",
+            "amount": 0
+        },
+        {
+            "articul": "284f",
+            "title": "Бакет Дует",
+            "cost": 246,
+            "image": "https://www.kfc-ukraine.com/admin/files/4093.png",
+            "amount": 0
+        },
+        {
+            "articul": "384f",
+            "title": "Бакет Дует",
+            "cost": 247,
+            "image": "https://www.kfc-ukraine.com/admin/files/4093.png",
+            "amount": 0
+        },
+        {
+            "articul": "484f",
+            "title": "Бакет Дует",
+            "cost": 298,
+            "image": "https://www.kfc-ukraine.com/admin/files/4093.png",
+            "amount": 0
+        },
+        {
+            "articul": "584f",
+            "title": "Бакет Дует",
+            "cost": 299,
+            "image": "https://www.kfc-ukraine.com/admin/files/4093.png",
+            "amount": 0
+        },
+        {
+            "articul": "684f",
+            "title": "Бакет Дует",
+            "cost": 300,
+            "image": "https://www.kfc-ukraine.com/admin/files/4093.png",
+            "amount": 0
+        },
+        {
+            "articul": "784f",
+            "title": "Бакет Дует",
+            "cost": 301,
+            "image": "https://www.kfc-ukraine.com/admin/files/4093.png",
+            "amount": 0
+        },
+        {
+            "articul": "784s",
+            "title": "Бакет Дует",
+            "cost": 201,
+            "image": "https://www.kfc-ukraine.com/admin/files/4093.png",
+            "amount": 0
+        }
+    ]
