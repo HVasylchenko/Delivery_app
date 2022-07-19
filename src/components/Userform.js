@@ -27,7 +27,7 @@ function Userform () {
                 <div></div>
                 <input type="tel" name="tel" id="tel" autoComplete="on" placeholder="Enter your tel" className="mb-2"/>
                 <div></div>
-                <input type="submit" value="Submit" className="btn btn-primary" omClick ={orderToLS}/>
+                <input type="submit" value="Submit" className="btn btn-primary" onClick ={orderToLS}/>
             </form> 
         </section>
     )
