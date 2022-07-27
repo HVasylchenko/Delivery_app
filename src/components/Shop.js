@@ -11,29 +11,30 @@ function Shop () {
   const choiceCafe = (event) => {
     event.preventDefault();
     let t = event.target;
-    setCafe([]);
+    // setCafe([]);
     if (t.classList.contains("McDonalds")) {setCafe(McDonaldsArr)};
     if (t.classList.contains("KFC")) {setCafe(KFCArr)};
   };
   
 // формируем массив с артикулами вібранніх товаров в ыуыышщтЫещкфпу
 const addToCartLS = (event) => {
+  
   let bucketArr = [];
   // event.target.dataset.key - это артикул выбранного товара- например "articul": "484f",
     event.preventDefault(); 
     if (!event.target.classList.contains('add-to-cart')) return false;
-    console.log( JSON.parse(sessionStorage.getItem("bucket")));
+    // console.log( JSON.parse(sessionStorage.getItem("bucket")));
     // 
     bucketArr.push(event.target.dataset.key);
     JSON.parse(sessionStorage.getItem("bucket")) ?
       bucketArr.push(JSON.parse(sessionStorage.getItem("bucket"))):
-      console.log(Boolean(JSON.parse(sessionStorage.getItem("bucket"))));
+      // console.log(Boolean(JSON.parse(sessionStorage.getItem("bucket"))));
     sessionStorage.clear();
     bucketArr = bucketArr.flat();
     // удаляем повторыне элементы в массиве
     let buckerSet = new Set(bucketArr);
     bucketArr = Array.from(buckerSet);
-    console.log(bucketArr);
+    // console.log(event.target.innerHTML);
     sessionStorage.setItem("bucket", JSON.stringify(bucketArr));
     };
 
@@ -42,8 +43,8 @@ const addToCartLS = (event) => {
       <section className="shops-style" onClick = {choiceCafe}>
         <h2 className="text-center mb-3">Shop</h2>
         <ul className="shops-style-ul">
-            <li className="McDonalds btn btn-primary mb-3 ml-0 mr-8 pl-0 w-80">McDonalds</li>
-            <li className="KFC btn btn-primary mb-3 ml-0 mr-8 pl-0 w-80">KFC</li>
+            <li key="McDonalds" className="McDonalds btn btn-primary mb-3 ml-0 mr-8 pl-0 w-80">McDonalds</li>
+            <li  key="KFC" className="KFC btn btn-primary mb-3 ml-0 mr-8 pl-0 w-80">KFC</li>
         </ul>
       </section>
       <section className="foods-style">

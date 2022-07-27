@@ -7,7 +7,7 @@
   .user-style {
   
   width: 33%;
-  height: 400px;
+  /* height: 440px; */
   margin: 5px;
   padding: 10px;
   border: 2px solid blue;
@@ -15,7 +15,7 @@
   }
   .bucket-style {
   width: 80%;
-  height: 350px;
+  height: 390px;
   margin: 5px;
   padding: 10px;
   border: 2px solid blue;
@@ -35,7 +35,7 @@
   padding: 10px;
   border: 2px solid blue;
   border-radius: 10px; */
-  height: 330px;
+  height: 370px;
   overflow-y: scroll;
   }
   
